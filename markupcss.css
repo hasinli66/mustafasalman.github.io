@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 .caption{
     margin: auto;
     width: 800px;
