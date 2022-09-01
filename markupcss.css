@@ -1,17 +1,37 @@
-@-ms-viewport{
-  width: device-width;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.caption{
-    /* margin: auto;
-    width: 100%;
-    /* border: 3px solid #73AD21; */
-    /* padding: 10px; */ 
-    font-family: Garamond, serif;
+.wrapper {
+  width: 100%;
 }
 
-.marq{
-  	max-width: 100%;
-    height: auto;
+.img-banner {
+  display: none;
+}
 
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: arial;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: arial;
+  font-size: 15px;
+  color: #111;
+  /* line-height: 44px; */
+}
+
+.img-me{
+  width: 100%;
+  
 }
