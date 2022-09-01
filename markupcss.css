@@ -33,5 +33,16 @@
 
 .img-me{
   width: 100%;
-  
+}
+
+.img-info1 p {
+  padding: 20px 30px 20px;
+  font-family: arial;
+  font-size: 15px;
+  color: #111;
+  /* line-height: 44px; */
+}
+
+.img-me1{
+  width: 100%;
 }
