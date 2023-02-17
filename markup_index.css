@@ -5,13 +5,32 @@ body{
 }
 
 .centered_name_top{
+    
+    /* fade in and out - part1 */
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+    opacity: 0;
+
+    
+
     position: absolute; /* taken out of the normal flow of the document */
     top: 50%; /* moved down by 50% of the screen height */
     transform: translateY(-50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
     width: 100%; /* needs to be defined to keep the default block behavior */
     text-align: center;
     margin: 0; /* again, for perfect center */
+    
 }
+
+/* fade in and out - part2 */
+@-webkit-keyframes fadeinout {
+    50% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    50% { opacity: 1; }
+  }
+
 
 .centered_name_under{
     position: absolute; /* taken out of the normal flow of the document */
